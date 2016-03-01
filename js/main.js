@@ -44,11 +44,11 @@ var writeBerries = function(berries){
   document.write('<h2>' + berry.name + '</h2>');
   document.write('<dl>');
 
-  document.write('<dt>Grows on a Shrub?</dt>')
+  document.write('<dt>Grows on a Shrub?</dt>');
   if (berry.onShrub) {
     document.write('<dd>yes</dd>');
   }else{
-    document.write('<dd>no</dd>')
+    document.write('<dd>no</dd>');
   }
 
   document.write('<dt>Energy</dt>');
